@@ -63,3 +63,18 @@ body {
   position: relative;
   width: 125px;
 }
+
+.robot:hover .robot-head-left {
+  position: relative;
+  right: 185px;
+}
+
+.robot:hover .robot-head-right {
+  position: relative;
+  left: 155px;
+}
+
+.robot:hover .robot-brain {
+  position: relative;
+  bottom: 275px;
+}
