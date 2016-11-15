@@ -18,6 +18,7 @@ body {
   width: 100%;
   position: absolute;
   overflow: hidden;
+  max-height: 235px;
 }
 
 .robot {
