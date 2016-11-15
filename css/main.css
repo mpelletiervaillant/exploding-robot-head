@@ -39,16 +39,22 @@ body {
 .robot-brain {
   position: relative;
   width: 46px;
+  left: 135px;
+  bottom: 235px;
 }
 
 .robot-head-right {
   position: relative;
   width: 125px;
+  left: 110px;
+  bottom: 180px;
 }
 
 .robot-head-left {
   position: relative;
   width: 125px;
+  right: 140px;
+  bottom: 180px;
 }
 
 .robot-head-left,
