@@ -18,7 +18,7 @@ body {
   width: 100%;
   position: absolute;
   overflow: hidden;
-  max-height: 235px;
+  max-height: 240px;
 }
 
 .robot {
@@ -28,7 +28,7 @@ body {
   position: relative;
   top: 0;
   left: 50%;
-  max-width: 50em;
+  bottom: 0;
 }
 
 .robot-body {
@@ -64,14 +64,16 @@ body {
   width: 125px;
 }
 
-.robot:hover .robot-head-left {
-  position: relative;
-  right: 185px;
-}
-
 .robot:hover .robot-head-right {
   position: relative;
   left: 155px;
+  bottom: 190px;
+}
+
+.robot:hover .robot-head-left {
+  position: relative;
+  right: 184px;
+  bottom: 190px;
 }
 
 .robot:hover .robot-brain {
